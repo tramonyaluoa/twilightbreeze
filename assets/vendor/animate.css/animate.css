@@ -1,12 +1,6 @@
 
 @charset "UTF-8";
-/*!
- * animate.css - https://animate.style/
- * Version - 4.1.0
- * Licensed under the MIT license - http://opensource.org/licenses/MIT
- *
- * Copyright (c) 2020 Animate.css
- */
+
 :root {
   --animate-duration: 1s;
   --animate-delay: 1s;
@@ -221,7 +215,7 @@
   -webkit-animation-name: flash;
   animation-name: flash;
 }
-/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+
 @-webkit-keyframes pulse {
   from {
     -webkit-transform: scale3d(1, 1, 1);
@@ -634,7 +628,7 @@
   -webkit-animation-name: tada;
   animation-name: tada;
 }
-/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+
 @-webkit-keyframes wobble {
   from {
     -webkit-transform: translate3d(0, 0, 0);
@@ -1034,7 +1028,7 @@
   -webkit-animation-name: backInUp;
   animation-name: backInUp;
 }
-/* Back exits */
+
 @-webkit-keyframes backOutDown {
   0% {
     -webkit-transform: scale(1);
@@ -1203,7 +1197,7 @@
   -webkit-animation-name: backOutUp;
   animation-name: backOutUp;
 }
-/* Bouncing entrances  */
+
 @-webkit-keyframes bounceIn {
   from,
   20%,
@@ -1612,7 +1606,7 @@
   -webkit-animation-name: bounceInUp;
   animation-name: bounceInUp;
 }
-/* Bouncing exits  */
+
 @-webkit-keyframes bounceOut {
   20% {
     -webkit-transform: scale3d(0.9, 0.9, 0.9);
@@ -1803,7 +1797,7 @@
   -webkit-animation-name: bounceOutUp;
   animation-name: bounceOutUp;
 }
-/* Fading entrances  */
+
 @-webkit-keyframes fadeIn {
   from {
     opacity: 0;
@@ -2178,7 +2172,7 @@
   -webkit-animation-name: fadeInBottomRight;
   animation-name: fadeInBottomRight;
 }
-/* Fading exits */
+
 @-webkit-keyframes fadeOut {
   from {
     opacity: 1;
@@ -2521,7 +2515,7 @@
   -webkit-animation-name: fadeOutBottomLeft;
   animation-name: fadeOutBottomLeft;
 }
-/* Flippers */
+
 @-webkit-keyframes flip {
   from {
     -webkit-transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0) rotate3d(0, 1, 0, -360deg);
@@ -2844,7 +2838,7 @@
   -webkit-animation-name: flipOutY;
   animation-name: flipOutY;
 }
-/* Lightspeed */
+
 @-webkit-keyframes lightSpeedInRight {
   from {
     -webkit-transform: translate3d(100%, 0, 0) skewX(-30deg);
@@ -3005,7 +2999,7 @@
   -webkit-animation-timing-function: ease-in;
   animation-timing-function: ease-in;
 }
-/* Rotating entrances */
+
 @-webkit-keyframes rotateIn {
   from {
     -webkit-transform: rotate3d(0, 0, 1, -200deg);
@@ -3166,7 +3160,7 @@
   -webkit-transform-origin: right bottom;
   transform-origin: right bottom;
 }
-/* Rotating exits */
+
 @-webkit-keyframes rotateOut {
   from {
     opacity: 1;
@@ -3307,7 +3301,7 @@
   -webkit-transform-origin: right bottom;
   transform-origin: right bottom;
 }
-/* Specials */
+
 @-webkit-keyframes hinge {
   0% {
     -webkit-animation-timing-function: ease-in-out;
@@ -3430,7 +3424,7 @@
   -webkit-animation-name: jackInTheBox;
   animation-name: jackInTheBox;
 }
-/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+
 @-webkit-keyframes rollIn {
   from {
     opacity: 0;
@@ -3461,7 +3455,7 @@
   -webkit-animation-name: rollIn;
   animation-name: rollIn;
 }
-/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+
 @-webkit-keyframes rollOut {
   from {
     opacity: 1;
@@ -3488,7 +3482,7 @@
   -webkit-animation-name: rollOut;
   animation-name: rollOut;
 }
-/* Zooming entrances */
+
 @-webkit-keyframes zoomIn {
   from {
     opacity: 0;
@@ -3667,7 +3661,7 @@
   -webkit-animation-name: zoomInUp;
   animation-name: zoomInUp;
 }
-/* Zooming exits */
+
 @-webkit-keyframes zoomOut {
   from {
     opacity: 1;
@@ -3846,7 +3840,7 @@
   -webkit-transform-origin: center bottom;
   transform-origin: center bottom;
 }
-/* Sliding entrances */
+
 @-webkit-keyframes slideInDown {
   from {
     -webkit-transform: translate3d(0, -100%, 0);
@@ -3959,7 +3953,7 @@
   -webkit-animation-name: slideInUp;
   animation-name: slideInUp;
 }
-/* Sliding exits */
+
 @-webkit-keyframes slideOutDown {
   from {
     -webkit-transform: translate3d(0, 0, 0);

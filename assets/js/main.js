@@ -1,13 +1,8 @@
-/**
-* Template Name: Selecao - v2.2.0
-* Template URL: https://bootstrapmade.com/selecao-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 !(function($) {
   "use strict";
 
-  // Smooth scroll for the navigation menu and links with .scrollto classes
+  
   var scrolltoOffset = $('#header').outerHeight() - 1;
   $(document).on('click', '.nav-menu a, .mobile-nav a, .scrollto', function(e) {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
@@ -40,7 +35,7 @@
     }
   });
 
-  // Activate smooth scroll on page load with hash links in the url
+
   $(document).ready(function() {
     if (window.location.hash) {
       var initial_nav = window.location.hash;
@@ -53,7 +48,6 @@
     }
   });
 
-  // Mobile Navigation
   if ($('.nav-menu').length) {
     var $mobile_nav = $('.nav-menu').clone().prop({
       class: 'mobile-nav d-lg-none'
@@ -88,7 +82,6 @@
     $(".mobile-nav, .mobile-nav-toggle").hide();
   }
 
-  // Navigation active state on scroll
   var nav_sections = $('section');
   var main_nav = $('.nav-menu, #mobile-nav');
 
@@ -111,7 +104,7 @@
     });
   });
 
-  // Toggle .header-scrolled class to #header when page is scrolled
+
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
       $('#header').addClass('header-scrolled');
@@ -124,7 +117,6 @@
     $('#header').addClass('header-scrolled');
   }
 
-  // Intro carousel
   var heroCarousel = $("#heroCarousel");
 
   heroCarousel.on('slid.bs.carousel', function(e) {
@@ -132,7 +124,6 @@
     $(this).find('p, .btn-get-started').addClass('animate__animated animate__fadeInUp');
   });
 
-  // Back to top button
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
       $('.back-to-top').fadeIn('slow');
@@ -148,7 +139,7 @@
     return false;
   });
 
-  // Porfolio isotope and filter
+
   $(window).on('load', function() {
     var portfolioIsotope = $('.portfolio-container').isotope({
       itemSelector: '.portfolio-item'
@@ -164,13 +155,12 @@
       aos_init();
     });
 
-    // Initiate venobox (lightbox feature used in portofilo)
+
     $(document).ready(function() {
       $('.venobox').venobox();
     });
   });
 
-  // Testimonials carousel (uses the Owl Carousel library)
   $(".testimonials-carousel").owlCarousel({
     autoplay: true,
     dots: true,
@@ -188,7 +178,7 @@
     }
   });
 
-  // Portfolio details carousel
+
   $(".portfolio-details-carousel").owlCarousel({
     autoplay: true,
     dots: true,
@@ -196,7 +186,6 @@
     items: 1
   });
 
-  // Init AOS
   function aos_init() {
     AOS.init({
       duration: 1000,
