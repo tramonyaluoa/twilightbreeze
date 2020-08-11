@@ -7056,9 +7056,9 @@
      margin-right: -100%;
      -webkit-backface-visibility: hidden;
      backface-visibility: hidden;
-     transition: -webkit-transform .6s ease-in-out;
-     transition: transform .6s ease-in-out;
-     transition: transform .6s ease-in-out, -webkit-transform .6s ease-in-out
+     transition: -webkit-transform 20s ease-in-out;
+     transition: transform 20s ease-in-out;
+     transition: transform 20s ease-in-out, -webkit-transform 20s ease-in-out
  }
 
  @media (prefers-reduced-motion:reduce) {
@@ -7103,7 +7103,7 @@
  .carousel-fade .active.carousel-item-right {
      z-index: 0;
      opacity: 0;
-     transition: opacity 0s .6s
+     transition: opacity 0s 20s
  }
 
  @media (prefers-reduced-motion:reduce) {
@@ -7130,7 +7130,7 @@
      color: #fff;
      text-align: center;
      opacity: .5;
-     transition: opacity .15s ease
+     transition: opacity 20s ease
  }
 
  @media (prefers-reduced-motion:reduce) {
